@@ -12,7 +12,7 @@ our @EXPORT = qw(
 	randomize
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 require XSLoader;
 XSLoader::load('Scalar::Random', $VERSION);
@@ -22,7 +22,7 @@ __END__
 
 =head1 NAME
 
-Scalar::Random - Convert scalar variables into automatic random number generators
+Scalar::Random - Create automatic random number generators
 
 =head1 SYNOPSIS
 
@@ -41,12 +41,12 @@ Scalar::Random - Convert scalar variables into automatic random number generator
 
 =head1 DESCRIPTION
 
-Scalar::Random will turn any scalar variable into an automatic random number
+Scalar::Random will turn a scalar variable into an automatic random number
 generator. All you need to do to get the next random number is use it!
 
 =head1 AUTHOR
 
-Alfie John, E<lt>alfie@h4c.kr<gt>
+Alfie John, E<lt>alfie@h4c.krE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 

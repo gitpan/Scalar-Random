@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Scalar-Random
-version:             0.01
-abstract:            Convert scalar variables into automatic random number generators
+version:             0.02
+abstract:            Create automatic random number generators
 license:             ~
 author:              
     - Alfie <alfie@>
